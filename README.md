@@ -1,5 +1,5 @@
 # Gordonia-CRISPR
-Scripts used to the reconstruction of Gordonia CRISPR
+Scripts used to the reconstruction of Gordonia CRISPR. All these scripts run under Linux operating system.
 
 This pipeline allow to reconstruct a specific CRISPR array diversity from several samples using illumina pair-end reads. Reads length must be >=100 bp or longer to get a better result. As a rule the read length >= 2 spacers + 1 repeat.
 
