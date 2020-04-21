@@ -25,14 +25,23 @@ Example:
 Using this information run bbduk over all samples in order to extract the reads with the repeat sequence:
 
 bbduk.sh
+
 in=R1_sample_1.fastq
+
 in2=R2_sample_1.fastq
+
 outm=R1_matched_sample_1.fq
+
 outm2=R2_matched_sample_1.fq
+
 k=			# k-mer length (max 31)
+
 mm=f
-literal= 		# repeat sequence   
+
+literal= 		# repeat sequence  
+
 hdist= 		# allowed mismatches
+
 rcomp=T
 
 
