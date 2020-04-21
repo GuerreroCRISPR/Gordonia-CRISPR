@@ -1,5 +1,18 @@
 #!/usr/bin/env python2.7
 
+##Script nro 1 de la serie para CRISPRs
+### Busca secuencias DR en reads y extrae las secuencias spacer-DR-spacer en una lista para usar en el sig script (spacer_concatenate.py)
+### 5-10-2018: Modificar para usar multiples archivos de reads y mantener informacion de reads por muestra (Numero de muestra)
+### (incompleto)23-10-2018: Modificar para usar junto con los scripts de Mothur:
+##      Genera un archivo fasta de las secuencias (listo)
+##      (incompleto)Generar una lista de spacers a cada lado de los DR  (A--------DR---------B) en formato fasta
+##      Genera un archivo group de sequence:sample
+##      Modificado para aceptar en el archivo source reads en formato fasta (concatenado de PE reads) 30-10-2018: cambiado a fastq
+##      (Las single reads se numeran como PE reads. Tambien puede tener problemas con el nombre si no contiene ':')
+##  5-12-2018: Version 2.0.1: Modificado para eliminar la identificacion de DR begining y end (mejor resultado)
+##             Cambiados los valores de penalidad del Alineamiento
+##             Elimina del alineamiento la primera y ultima base del DR (DR[1:-1])
+
 from Bio import pairwise2, SeqIO
 from Bio.Seq import reverse_complement
 from Bio.pairwise2 import format_alignment
