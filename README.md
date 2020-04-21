@@ -11,6 +11,8 @@ bbduck (https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide)
 
 Mothur (https://mothur.org)
 
+Blast 
+
 Python modules:
 
 Biopython (pip install biopython)
