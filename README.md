@@ -55,7 +55,13 @@ Make a source file to be used by the script findRepeatCRISPR.py:
 The source file is a tab delimited file with a sample identifier and the reads file names:
 
 sample1	R1.sample1.fastq	R2.sample1.fastq
+
 sample2	R1.sample2.fastq	R2.sample2.fastq
+
 sample3	R1.sample3.fastq	R2.sample3.fastq
+
 …
+
 samplen	R1.samplen.fastq	R2.samplen.fastq
+
+
