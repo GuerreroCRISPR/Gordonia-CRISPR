@@ -7,8 +7,8 @@ May be possible to use filtered files by read length and quality
 
 Requirements:
 
-bbduck (https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/)
-Mothur ()
+bbduck (https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide)
+Mothur (https://mothur.org)
 
 Python modules:
 Biopython (pip install biopython)
@@ -39,7 +39,7 @@ Make a reads.names.txt file of the reads samples fastq files as shown:
 sample1_R1.fastq
 
 
-Make asource file to be used by the script sequence_aligner.2.0.1.py:
+Make a source file to be used by the script findRepeatCRISPR.py:
 
 The source file is a tab delimited file with a sample identifier and the reads file names:
 
