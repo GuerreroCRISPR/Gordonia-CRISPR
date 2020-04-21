@@ -91,9 +91,9 @@ cluster.fragments(fasta=, name=, diffs=3)
 The easiest way to extract the spacers as fasta file is from the network.nodes.csv file:
 
 
-sed 's/ /\t/g' $bin.network.nodes.csv | cut -f 1,3 | sed 's/^/>/' | sed 's/\t/\n/' | tail -n+3 > $bin.spacersL.fa
+sed 's/ /\t/g' network.nodes.csv | cut -f 1,3 | sed 's/^/>/' | sed 's/\t/\n/' | tail -n+3 > spacersL.fa
 
-sed 's/ /\t/g' $bin.network.nodes.csv | cut -f 1,5 | sed 's/^/>/' | sed 's/\t/\n/' | tail -n+2 > $bin.spacersR.fa
+sed 's/ /\t/g' network.nodes.csv | cut -f 1,5 | sed 's/^/>/' | sed 's/\t/\n/' | tail -n+2 > spacersR.fa
 
 
 
