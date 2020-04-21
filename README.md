@@ -8,9 +8,11 @@ May be possible to use filtered files by read length and quality
 Requirements:
 
 bbduck (https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide)
+
 Mothur (https://mothur.org)
 
 Python modules:
+
 Biopython (pip install biopython)
 
 Use some of the available software to identify possible CRISPR arrays and extract the repeat sequence. Consider the number of mismatches.
@@ -29,8 +31,8 @@ outm=R1_matched_sample_1.fq
 outm2=R2_matched_sample_1.fq
 k=			# k-mer length (max 31)
 mm=f
-literal=crp 		# repeat sequence   
-hdist=2 		# allowed mismatches
+literal= 		# repeat sequence   
+hdist= 		# allowed mismatches
 rcomp=T
 
 
