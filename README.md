@@ -9,7 +9,7 @@ Requirements:
 
 bbduck (https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide)
 
-Mothur (https://mothur.org)
+Mothur v.1.39.5 (https://mothur.org)
 
 Blast 
 
